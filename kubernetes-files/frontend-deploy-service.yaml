@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: 600627346006.dkr.ecr.us-east-1.amazonaws.com/2nd10weeksofcloudops-final-main-backend:latest
+        image: 600627346006.dkr.ecr.us-east-1.amazonaws.com/2nd10weeksofcloudops-final-main-frontend:latest
         ports:
         - containerPort: 80
         env:   # <-- Fixed indentation
